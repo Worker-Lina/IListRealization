@@ -82,10 +82,10 @@ namespace IListClassRealisetion
         {
             for (int i = 0; i < Count; i++)
             {
-                if (_list[i] == value)
+                if (value.Equals(_list[i]))
                 {
                     return i;
-                }              
+                }            
             }
             return -1;
         }
